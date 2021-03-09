@@ -1,0 +1,48 @@
+.NavContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height:60px;
+  margin-top: 25px;
+  background-color: rgba(10,47,135,0.9);
+}
+.NavText{
+  font-size: 1rem;
+  font-family: sans-serif;
+  color:white;
+  text-decoration: none;
+}
+.NavItem{
+  color:white;
+  text-decoration: none;
+}
+.icones{
+  margin-right: 10px;
+}
+.profil_image{
+  height:100px;
+  width:auto;
+  border-radius: 50%;
+  border: black solid 2px;
+  transition:height 0.5s ease-in;
+}
+.profil_image:hover{
+  height:110px;
+}
+
+@media all and (max-width:920px){
+  .profil_image{
+    display:none;
+  }
+}
+
+@media all and (max-width:520px){
+  .NavText{
+    display:none;
+  }
+  .icones{
+    margin:0px;
+    font-size: 30px;
+  }
+}

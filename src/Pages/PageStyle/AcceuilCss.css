@@ -1,0 +1,9 @@
+.PageContainer{
+  margin: 0px 20px;
+}
+
+@media all and (max-width:520px){
+  .PageContainer{
+    margin: 0px;
+  }
+}

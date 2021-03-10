@@ -1,8 +1,9 @@
 import React from 'react';
+import Navigateur from '../Components/Navigateur';
 
 const Competence=()=>{
   return(
-    <p>Competence</p>
+    <Navigateur/>
   )
 }
 

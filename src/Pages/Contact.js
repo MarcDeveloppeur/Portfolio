@@ -1,8 +1,9 @@
 import React from 'react';
+import Navigateur from '../Components/Navigateur';
 
 const Contact=()=>{
   return(
-    <p>Contact</p>
+    <Navigateur/>
   )
 }
 

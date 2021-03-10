@@ -1,7 +1,25 @@
 .PageContainer{
   margin: 0px 20px;
 }
+.PageContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
 
+}
+.descriptionContainer{
+  margin: 30px 0px;
+  width:70%;
+}
+.questionTitle{
+  color:rgba(139,213,4);
+  font-size: 3rem;
+  margin-left: 10%;
+}
+.text{
+  font-size: 1.5rem;
+}
 @media all and (max-width:520px){
   .PageContainer{
     margin: 0px;

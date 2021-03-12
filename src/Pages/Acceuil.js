@@ -7,24 +7,42 @@ const Acceuil=()=>{
     <div className="PageContainer">
         <Navigateur/>
         <div className="PageContent">
-           <div className="descriptionContainer">
-               <h1 className="questionTitle">
-                  Qui suis-je?
-               </h1>
-               <p className="descriptionText">
-                  Je suis un développeur web autodidacte, autonome et passioné par les nouvelles technologies.J'ai un diplôme de licence en génie logiciel et base de données
-                  du CENTRE NATIONAL DE TELE-ENSEIGNEMENT DE MADAGASCAR.
-               </p>
-           </div>
-           <div className="descriptionContainer">
-              <h1 className="questionTitle">
-                 Quel est mon expériance professionnelle?
-              </h1>
-              <p className="descriptionText">
-                 J'ai éffectué un stage de 3 mois au sein de la Région Vakinankaratra en tant qu'intégrateur WordPress durant le mois de Août à Novembre 2020.
-                 Mais j'ai pu montré mes compétences à travers plusieurs mini-projets dont ce site portfolio que j'ai réalisé avec ReactJS.
-              </p>
-           </div>
+          <div className="block1">
+             <h2 className="name">
+                HUBERT RAMADISON Marc
+             </h2>
+             <h1 className="job">
+                DEVELOPPEUR WEB FRONTEND JUNIOR
+             </h1>
+             <h3 className="title">
+                MON PORTFOLIO
+             </h3>
+             <div className="LinkBlock">
+               <i className="fab fa-github fa-4x socialLink"></i>
+               <i className="fab fa-facebook fa-4x socialLink"></i>
+             </div>
+          </div>
+          <div className="block2">
+             <div className="descriptionHeader">
+                 <div className="profil-block">
+                    <img id="photo-profil" src="./Assets/Images/Ma photo.jpg" alt="Ma photo de profil"/>
+                 </div>
+                 <div className="descriptionName">
+                     HUBERT RAMADISON Marc
+                 </div>
+             </div>
+             <div className="descriptionText">
+                     Il est un développeur web frontend ReactJS, capable
+                 de développer des applications web modernes et résponsives.
+                 Il est non seulement un développeur frontend mais aussi peut
+                  développer des API avec NodeJS, Express, MongoDB ou MySQL.
+             </div>
+             <a href="" id="CvLink" target="_blank" rel="noopener noreferrer">Télécherger le CV en version PDF</a>
+          </div>
+        </div>
+        <div className="MobileLinkBlock">
+          <i className="fab fa-github fa-4x socialLink"></i>
+          <i className="fab fa-facebook fa-4x socialLink"></i>
         </div>
     </div>
   )

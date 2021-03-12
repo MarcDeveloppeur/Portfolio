@@ -1,11 +1,10 @@
 .NavContainer{
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
-  height:60px;
-  margin-top: 25px;
-  background-color: rgba(89,0,102,0.9);
+  height:50px;
+  background-color:rgb(20,20,20);
 }
 .NavText{
   font-size: 1rem;
@@ -14,35 +13,31 @@
   text-decoration: none;
 }
 .NavItem{
-  color:white;
+  color:#eee;
   text-decoration: none;
+  margin-right: 40px;
 }
 .icones{
   margin-right: 10px;
 }
-.profil_image{
-  height:100px;
-  width:auto;
-  border-radius: 50%;
-  border: rgb(139,213,4) double 2px;
-  transition:height 0.5s ease-in;
-}
-.profil_image:hover{
-  height:110px;
+.LinkContainer{
+  width:50%;
 }
 .NavItem:hover,.NavText:hover{
-  color:rgb(139,213,4);
+  color:grey;
 }
-@media all and (max-width:920px){
-  .profil_image{
-    display:none;
+@media all and (max-width:1120px){
+  .LinkContainer{
+    width:100%;
+    text-align: center;
   }
   .NavContainer{
     margin-top: 0px;
   }
 }
 
-@media all and (max-width:520px){
+@media all and (max-width:585px){
+
   .NavText{
     display:none;
   }

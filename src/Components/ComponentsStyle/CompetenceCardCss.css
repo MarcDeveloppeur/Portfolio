@@ -1,0 +1,46 @@
+.CardContent{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:20%;
+  margin:30px 20px;
+  padding: 10px;
+  background-color: white;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+#image{
+  width:70%;
+  height:11rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+.competenceDesc{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.descriptionTitle{
+  text-transform: uppercase;
+  padding: 5px;
+  color:black;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.CompetenceBlock{
+  display:flex;
+  flex-direction: row;
+}
+
+@media all and (max-width:1024px){
+  .CardContent{
+    width:40%;
+  }
+}
+@media all and (max-width:680px){
+  .CardContent{
+    width:70%;
+  }
+}

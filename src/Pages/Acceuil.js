@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigateur from '../Components/Navigateur';
 import './PageStyle/AcceuilCss.css';
+import './PageStyle/globalCss.css';
 
 const Acceuil=()=>{
   return(
@@ -31,13 +32,13 @@ const Acceuil=()=>{
                      HUBERT RAMADISON Marc
                  </div>
              </div>
-             <div className="descriptionText">
+             <div className="descriptionTexte">
                      Il est un développeur web frontend ReactJS, capable
                  de développer des applications web modernes et résponsives.
                  Il est non seulement un développeur frontend mais aussi peut
                   développer des API avec NodeJS, Express, MongoDB ou MySQL.
              </div>
-             <a href="" id="CvLink" target="_blank" rel="noopener noreferrer">Télécherger le CV en version PDF</a>
+             <a href="" id="CvLink" target="_blank" rel="noopener noreferrer">Télécherger le CV en PDF</a>
           </div>
         </div>
         <div className="MobileLinkBlock">

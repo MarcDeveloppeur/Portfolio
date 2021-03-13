@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  height:50px;
+  height:45px;
   background-color:rgb(20,20,20);
 }
 .NavText{
@@ -26,6 +26,9 @@
 .NavItem:hover,.NavText:hover{
   color:grey;
 }
+.NavText:visited{
+  color:grey;
+}
 @media all and (max-width:1120px){
   .LinkContainer{
     width:100%;
@@ -36,7 +39,7 @@
   }
 }
 
-@media all and (max-width:585px){
+@media all and (max-width:620px){
 
   .NavText{
     display:none;

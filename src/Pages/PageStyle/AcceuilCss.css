@@ -30,7 +30,7 @@ h3{
   align-items: center;
   justify-content: space-around;
   background-image: url("./dark-background.jpg");
-  width:40%;
+  width:35%;
   height:36rem;
   min-width:380px;
 }
@@ -92,7 +92,7 @@ h3{
     display:none;
   }
   .block2{
-    width:60%;
+    width:50%;
   }
   .MobileLinkBlock{
     display:block;

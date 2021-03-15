@@ -1,25 +1,39 @@
 import React from 'react';
 import Navigateur from '../Components/Navigateur';
 import CompetenceCard from '../Components/CompetenceCard';
+import Footer from '../Components/Footer';
 import './PageStyle/CompetenceCss.css';
+import './PageStyle/globalCss.css';
 
 const competences=[
   {
     imageLink:"./Assets/Images/htmlCss.jpg",
-    descTitle:"html/css"
+    descTitle:"html5 / css3"
   },
   {
-    imageLink:"./Assets/Images/SQL.png",
-    descTitle:"SQL"
+    imageLink:"./Assets/Images/javascript.png",
+    descTitle:"javascript ES6+"
   },
   {
-    imageLink:"./Assets/Images/htmlCss.jpg",
-    descTitle:"html/css"
+    imageLink:"./Assets/Images/node.jpg",
+    descTitle:"nodejs"
   },
   {
-    imageLink:"./Assets/Images/htmlCss.jpg",
-    descTitle:"html/css"
-  }
+    imageLink:"./Assets/Images/reactjs.jpg",
+    descTitle:"reactjs"
+  },
+  {
+    imageLink:"./Assets/Images/express.png",
+    descTitle:"expressjs"
+  },
+  {
+    imageLink:"./Assets/Images/mongodb.jpg",
+    descTitle:"mongodb"
+  },
+  {
+    imageLink:"./Assets/Images/sql.png",
+    descTitle:"sql"
+  },
 ]
 
 const Competence=()=>{
@@ -36,6 +50,7 @@ const Competence=()=>{
                }
             </div>
        </div>
+       <Footer/>
     </div>
   )
 }

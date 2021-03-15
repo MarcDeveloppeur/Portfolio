@@ -16,9 +16,8 @@
   justify-content: center;
   flex-wrap: wrap;
   background-color: rgba(180,180,180);
-  width:95%;
+  width:90%;
   margin-bottom: 50px;
-  padding: 5px;
 }
 @media all and (max-width:620px){
   .competenceTitle{

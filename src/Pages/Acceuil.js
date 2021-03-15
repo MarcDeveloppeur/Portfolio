@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigateur from '../Components/Navigateur';
+import Footer from '../Components/Footer';
 import './PageStyle/AcceuilCss.css';
 import './PageStyle/globalCss.css';
 
@@ -45,6 +46,7 @@ const Acceuil=()=>{
           <i className="fab fa-github fa-4x socialLink"></i>
           <i className="fab fa-facebook fa-4x socialLink"></i>
         </div>
+        <Footer/>
     </div>
   )
 }

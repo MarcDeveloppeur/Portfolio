@@ -1,26 +1,27 @@
-.CompetenceContent{
+.PortfolioContainer{
   display:flex;
   flex-direction: column;
   align-items: center;
 }
-.competenceTitle{
+.PortfolioTitle{
   margin-top:50px;
   margin-bottom: 30px;
   font-size: 3em;
   color:black;
   font-family: sans-serif;
 }
-.CompetenceBlock{
+.PortfolioContent{
   display:flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   background-color: rgba(190,190,190);
-  width:90%;
+  width:95%;
+  height:auto;
   margin-bottom: 50px;
 }
 @media all and (max-width:620px){
-  .competenceTitle{
+  .PortfolioTitle{
     font-size: 2rem;
   }
 }

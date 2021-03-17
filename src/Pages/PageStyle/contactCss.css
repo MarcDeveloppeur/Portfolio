@@ -1,0 +1,108 @@
+.socialContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width:80%;
+
+}
+.contactPageContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.socialTitle{
+  font-family: sans-serif;
+  font-size: 2.5em;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.socialIcones{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80px;
+  padding:10px;
+}
+.contactSocialLink{
+  margin:5px 35px;
+}
+.contact{
+  color:grey;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+.contactIcones1{
+  animation: turning 1s forwards ease-in;
+}
+.contactIcones2{
+    animation: turning 1.5s forwards ease-in;
+}
+.contactIcones3{
+    animation: turning 2s forwards ease-in;
+}
+.contactForm{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 30px;
+  background-color: rgb(190,190,190);
+  width:40%;
+  text-align: center;
+  padding: 30px;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:80%;
+}
+.inputText{
+  width:100%;
+  margin-bottom: 40px;
+  height:30px;
+  border: none;
+  font-family: sans-serif;
+  padding: 5px;
+}
+.message{
+  width: 100%;
+  border:none;
+  height:120px;
+  margin-bottom: 45px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+.btnEnvoyer{
+  background-color: rgba(255,255,255,0.5);
+  font-size: 1em;
+  font-family: serif;
+  border:1px black solid;
+  padding: 15px 20px;
+  border-radius: 20px;
+  color:black;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.inputText:focus,.message:focus{
+  border-bottom: 1px blue solid;
+}
+@keyframes turning {
+  to{
+     transform:rotateY(360deg);
+  }
+}
+@media all and (max-width:786px){
+  .contactForm{
+    width:80%;
+  }
+  .socialTitle{
+    font-size: 2em;
+  }
+
+}

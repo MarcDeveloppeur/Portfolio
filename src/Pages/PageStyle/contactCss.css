@@ -3,7 +3,8 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  width:80%;
+  width:70%;
+  margin-bottom: 20px;
 
 }
 .contactPageContent{
@@ -16,8 +17,8 @@
 .socialTitle{
   font-family: sans-serif;
   font-size: 2.5em;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 30px;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -54,7 +55,7 @@
   background-color: rgb(190,190,190);
   width:40%;
   text-align: center;
-  padding: 30px;
+  padding: 40px 0px;
 }
 form{
   display:flex;
@@ -64,7 +65,7 @@ form{
 }
 .inputText{
   width:100%;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   height:30px;
   border: none;
   font-family: sans-serif;
@@ -73,7 +74,7 @@ form{
 .message{
   width: 100%;
   border:none;
-  height:120px;
+  height:13em;
   margin-bottom: 45px;
   font-family: sans-serif;
   padding: 5px;
@@ -81,20 +82,41 @@ form{
 .btnEnvoyer{
   background-color: rgba(255,255,255,0.5);
   font-size: 1em;
-  font-family: serif;
-  border:1px black solid;
+  font-family: sans-serif;
+  border:none;
+  border-style: none;
   padding: 15px 20px;
   border-radius: 20px;
   color:black;
-  margin-bottom: 10px;
   cursor: pointer;
 }
-.inputText:focus,.message:focus{
-  border-bottom: 1px blue solid;
+.error{
+    box-shadow: 0px 0px 6px red;
 }
+.inputText:focus,.message:focus{
+  box-shadow: 0px 0px 6px blue;
+}
+.messageBox{
+  display:none;
+  font-size: 1.2em;
+  color:white;
+  margin-top: 30px;
+  width:50%;
+  padding:30px;
+  animation:appear forwards 0.4s ease-in;
+}
+
 @keyframes turning {
   to{
      transform:rotateY(360deg);
+  }
+}
+@keyframes appear {
+  from{
+    transform:scale(0);
+  }to{
+    height:100%;
+    transform: scale(1);
   }
 }
 @media all and (max-width:786px){

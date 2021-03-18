@@ -21,6 +21,9 @@
   margin-right: 10px;
 }
 .LinkContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   width:50%;
 }
 .NavItem:hover,.NavText:hover{
@@ -39,7 +42,7 @@
   }
 }
 
-@media all and (max-width:620px){
+@media all and (max-width:720px){
 
   .NavText{
     display:none;
@@ -47,5 +50,8 @@
   .icones{
     margin:0px;
     font-size: 30px;
+  }
+  .LinkContainer{
+    justify-content: center;
   }
 }

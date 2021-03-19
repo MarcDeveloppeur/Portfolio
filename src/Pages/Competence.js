@@ -11,7 +11,7 @@ const competences=[
     descTitle:"html5 / css3"
   },
   {
-    imageLink:"./Assets/Images/javascript.png",
+    imageLink:"./Assets/Images/javascript.jpg",
     descTitle:"javascript ES6+"
   },
   {
@@ -23,16 +23,28 @@ const competences=[
     descTitle:"reactjs"
   },
   {
-    imageLink:"./Assets/Images/express.png",
+    imageLink:"./Assets/Images/express.jpg",
     descTitle:"expressjs"
+  },
+  {
+    imageLink:"./Assets/Images/socket.jpg",
+    descTitle:"socket.io"
   },
   {
     imageLink:"./Assets/Images/mongodb.jpg",
     descTitle:"mongodb"
   },
   {
-    imageLink:"./Assets/Images/sql.png",
-    descTitle:"sql"
+    imageLink:"./Assets/Images/sql.jpg",
+    descTitle:"Mysql"
+  },
+  {
+    imageLink:"./Assets/Images/wordpress.jpg",
+    descTitle:"wordpress"
+  },
+  {
+    imageLink:"./Assets/Images/github.jpg",
+    descTitle:"git/github"
   },
 ]
 

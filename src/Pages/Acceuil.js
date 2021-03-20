@@ -14,7 +14,7 @@ const Acceuil=()=>{
                 HUBERT RAMADISON Marc
              </h2>
              <h1 className="job">
-                DEVELOPPEUR WEB FRONTEND JUNIOR
+                DEVELOPPEUR WEB FRONTEND
              </h1>
              <h3 className="title">
                 MON PORTFOLIO
@@ -34,10 +34,13 @@ const Acceuil=()=>{
                  </div>
              </div>
              <div className="descriptionTexte">
-                     Il est un développeur web frontend ReactJS, capable
-                 de développer des applications web modernes et résponsives.
-                 Il est non seulement un développeur frontend mais aussi peut
-                  développer des API avec NodeJS, Express, MongoDB ou MySQL.
+                     Il est un jeune intégrateur et développeur web frontend ReactJS, capable
+                 de développer des applications web modernes et résponsives.Avec quelques notion de backend avec nodejs et mongodb.
+             </div>
+             <div className="directionBlock">
+                  <div className="line1"></div>
+                  <div className="line2"></div>
+                  <div className="line3"></div>
              </div>
              <a href="" id="CvLink" target="_blank" rel="noopener noreferrer">Télécherger le CV en PDF</a>
           </div>

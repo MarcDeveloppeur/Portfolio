@@ -21,7 +21,7 @@ h3{
   margin-top: 0px;
 }
 .block1{
-  width:50%;
+  width:55%;
   padding-top: 70px;
   border-right: 2px black solid;
 }
@@ -32,7 +32,7 @@ h3{
   justify-content: space-around;
   background-image: url("./dark-background.jpg");
   width:30%;
-  height:36rem;
+  height:37rem;
   max-width: 600px;
   min-width:380px;
 }
@@ -55,6 +55,7 @@ h3{
   text-align: center;
   border: white 2px solid;
   border-radius: 50%;
+  margin-top: 5%;
 }
 .MobileLinkBlock{
   display: none;
@@ -71,10 +72,11 @@ h3{
   font-family: serif;
   text-decoration: none;
   border:2px white solid;
-  padding: 13px;
+  padding: 13px 20px;
   border-radius: 20px;
   color:white;
   background-color: transparent;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 .descriptionName{
@@ -90,7 +92,73 @@ h3{
   font-size: 1rem;
   font-family: serif;
   letter-spacing: 0.5px;
+  word-spacing: 1px;
   line-height: 1.5;
+  margin-top: 17%;
+  margin-bottom: 5%;
+}
+.directionBlock{
+  width:20%;
+  margin-bottom: 0px;
+  margin-top: 5%;
+}
+.line1,.line2,.line3{
+  width:0;
+  height:0.8em;
+  border-left:2em transparent solid;
+  border-right:2em transparent solid;
+  border-top: 1.7em solid white;
+}
+.line1{
+  animation:animation1 infinite ease-in 1.6s;
+}
+.line2{
+  animation:animation2 infinite ease-in 1.6s;
+}
+.line3{
+  animation:animation3 infinite ease-in 1.6s;
+}
+@keyframes animation1 {
+   10%{
+     opacity: 1;
+   }40%{
+     opacity:0;
+   }
+   80%{
+     opacity:0;
+   }
+   100%{
+     opacity:0;
+   }
+}
+@keyframes animation2 {
+   0%{
+     opacity: 0;
+   }35%{
+     opacity:1;
+   }
+   80%{
+     opacity:0;
+   }
+   100%{
+     opacity:0;
+   }
+}
+@keyframes animation3 {
+   0%{
+     opacity: 0;
+   }30%{
+     opacity:0;
+   }
+   75%{
+     opacity:1;
+   }
+   95%{
+     opacity:0;
+   }
+   100%{
+     opacity:0;
+   }
 }
 @media all and (max-width:920px){
   .block1{
@@ -108,11 +176,7 @@ h3{
   .PageContainer{
     margin: 0px;
   }
-  .block2{
-    height:560px;
-  }
   .profil-block{
     width:22%;
   }
-
 }

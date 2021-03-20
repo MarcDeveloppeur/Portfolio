@@ -97,15 +97,15 @@ const Contact=()=>{
           </h1>
           <div className="socialContainer">
               <div className="contactSocialLink">
-                  <i className="fa fa-phone fa-3x socialIcones contactIcones1"></i>
+                  <i className="fa fa-phone fa-4x socialIcones contactIcones1"></i>
                   <p className="contact">034xxxxxxx</p>
               </div>
               <div className="contactSocialLink">
-                 <i className="fa fa-envelope fa-3x socialIcones contactIcones2"></i>
+                 <i className="fa fa-envelope fa-4x socialIcones contactIcones2"></i>
                  <p className="contact">034xxxxxxx</p>
               </div>
               <div className="contactSocialLink">
-                  <i className="fab fa-github fa-3x socialIcones contactIcones3"></i>
+                  <i className="fab fa-github fa-4x socialIcones contactIcones3"></i>
                   <p className="contact">034xxxxxxx</p>
               </div>
           </div>

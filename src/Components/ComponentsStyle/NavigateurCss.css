@@ -29,8 +29,8 @@
 .NavItem:hover,.NavText:hover{
   color:grey;
 }
-.NavText:visited{
-  color:grey;
+.NavItem:link:visited {
+  text-decoration: underline;
 }
 @media all and (max-width:1120px){
   .LinkContainer{

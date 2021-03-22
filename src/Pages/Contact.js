@@ -109,10 +109,11 @@ const Contact=()=>{
                   <p className="contact">034xxxxxxx</p>
               </div>
           </div>
-          <h1 className="socialTitle">
-              Envoyer moi un message
-          </h1>
+
           <div className="contactForm">
+            <div className="formTitle">
+                Envoyer un message
+            </div>
             <form onSubmit={envoyer}>
                <input type="text" id="nom"className="inputText" placeholder="Nom *" value={nom} onChange={(e)=>setNom(e.target.value)}/>
                <input type="email" id="email"className="inputText" placeholder="Email *" value={email} onChange={(e)=>setEmail(e.target.value)}/>

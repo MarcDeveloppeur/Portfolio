@@ -94,7 +94,7 @@ h3{
   letter-spacing: 0.5px;
   word-spacing: 1px;
   line-height: 1.5;
-  margin-top: 17%;
+  margin-top: 15%;
   margin-bottom: 5%;
 }
 .directionBlock{
@@ -135,7 +135,7 @@ h3{
    0%{
      opacity: 0;
    }35%{
-     opacity:1;
+     opacity:0.8;
    }
    80%{
      opacity:0;
@@ -151,7 +151,7 @@ h3{
      opacity:0;
    }
    75%{
-     opacity:1;
+     opacity:0.6;
    }
    95%{
      opacity:0;

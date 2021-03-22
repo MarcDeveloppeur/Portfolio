@@ -42,7 +42,7 @@ const Acceuil=()=>{
                   <div className="line2"></div>
                   <div className="line3"></div>
              </div>
-             <a href="" id="CvLink" target="_blank" rel="noopener noreferrer">Télécherger le CV en PDF</a>
+             <a href="./Assets/CV React.pdf" id="CvLink" target="_blank" rel="noopener noreferrer">Télécherger le CV en PDF</a>
           </div>
         </div>
         <div className="MobileLinkBlock">

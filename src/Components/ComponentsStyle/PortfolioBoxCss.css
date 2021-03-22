@@ -2,10 +2,10 @@
   display:flex;
   flex-direction: column;
   align-items: center;
-  width:30%;
-  padding: 15px;
+  width:27%;
+  padding: 15px 10px;
   background-color: white;
-  margin: 30px;
+  margin: 20px;
   border-top-right-radius:30px;
   border-bottom-left-radius:30px;
 }
@@ -48,19 +48,32 @@
 }
 .PortfolioBoxTitle{
   color:black;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 1rem;
   font-family: sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   border-top: 1px solid black;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .PortfolioBoxDescription{
   font-size: 1rem;
   font-family: serif;
   letter-spacing: 0.5px;
   color:grey;
+}
+.techList{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+.techBox{
+  background-color: rgba(190,190,190);
+  font-family: serif;
+  font-size: 1em;
+  padding: 6px;
+  margin: 5px;
 }
 @media all and (max-width:920px){
   .PortfolioBoxContainer{

@@ -1,0 +1,28 @@
+.conteneur{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  background-color: rgb(192,192,192);
+  height: 20em;
+  margin-top: 5%;
+  margin-right: 100px;
+  padding: 50px;
+}
+.errorText{
+  font-family: sans-serif;
+  color:black;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+.btn-Return{
+  font-size: 1em;
+  font-family: serif;
+  text-decoration: none;
+  background-color: white;
+  color:black;
+  padding: 20px;
+  border-radius: 10px;
+}

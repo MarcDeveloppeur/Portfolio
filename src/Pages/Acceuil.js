@@ -14,10 +14,10 @@ const Acceuil=()=>{
                 HUBERT RAMADISON Marc
              </h2>
              <h1 className="job">
-                DEVELOPPEUR WEB FRONTEND
+                DEVELOPPEUR WEB
              </h1>
              <h3 className="title">
-                MON PORTFOLIO
+                PORTFOLIO
              </h3>
              <div className="LinkBlock">
                <i className="fab fa-github fa-4x socialLink"></i>
@@ -34,15 +34,15 @@ const Acceuil=()=>{
                  </div>
              </div>
              <div className="descriptionTexte">
-                     Il est un jeune intégrateur et développeur web frontend ReactJS, capable
-                 de développer des applications web modernes et résponsives.Avec quelques notion de backend avec nodejs et mongodb.
+                     Il est un jeune développeur web passioné par les nouvelles technologes,
+                     capable de développer des applications web modernes et responsives.
              </div>
              <div className="directionBlock">
                   <div className="line1"></div>
                   <div className="line2"></div>
                   <div className="line3"></div>
              </div>
-             <a href="./Assets/CV React.pdf" id="CvLink" target="_blank" rel="noopener noreferrer">Télécherger le CV en PDF</a>
+             <a href="./Assets/CV React.pdf" id="CvLink" target="_blank" rel="noopener noreferrer">Télécharger le CV en PDF</a>
           </div>
         </div>
         <div className="MobileLinkBlock">

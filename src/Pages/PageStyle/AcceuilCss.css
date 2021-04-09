@@ -3,11 +3,12 @@ h1,h3{
   font-family: sans-serif;
 }
 h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-top: 70px;
   font-family: serif;
   color:rgb(20,20,20);
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+  word-spacing: 8px;
 }
 h2{
   font-style: italic;
@@ -16,12 +17,12 @@ h2{
   color:rgb(20,20,20);
 }
 h3{
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:grey;
   margin-top: 0px;
 }
 .block1{
-  width:55%;
+  width:60%;
   padding-top: 70px;
   border-right: 2px black solid;
 }
@@ -35,6 +36,7 @@ h3{
   height:37rem;
   max-width: 600px;
   min-width:380px;
+  padding: 15px 0px;
 }
 .descriptionHeader{
   display:flex;
@@ -46,7 +48,7 @@ h3{
   margin-top: 120px;
 }
 .socialLink{
-  margin:0px 20px;
+  margin: 20px;
 }
 .profil-block{
   width:20%;
@@ -72,7 +74,7 @@ h3{
   font-family: serif;
   text-decoration: none;
   border:2px white solid;
-  padding: 13px 20px;
+  padding: 15px 20px;
   border-radius: 20px;
   color:white;
   background-color: transparent;
@@ -88,13 +90,13 @@ h3{
 }
 .descriptionTexte{
   color:#fff;
-  margin:0px 50px;
+  margin:0px 30px;
   font-size: 1rem;
   font-family: serif;
-  letter-spacing: 0.5px;
-  word-spacing: 1px;
-  line-height: 1.5;
-  margin-top: 15%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.5rem;
+  margin-top: 17%;
   margin-bottom: 5%;
 }
 .directionBlock{

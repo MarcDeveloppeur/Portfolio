@@ -3,8 +3,8 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  height:3.5em;
-  background-color:rgb(20,20,20);
+  height:4em;
+  background-color:rgb(20,20,20,0.9);
 }
 .NavText{
   font-size: 1rem;
@@ -15,7 +15,7 @@
 .NavItem{
   color:#eee;
   text-decoration: none;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 .icones{
   margin-right: 10px;
@@ -24,12 +24,13 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  width:50%;
+  width:70%;
+  margin-right: 20px;
 }
 .NavItem:hover,.NavText:hover{
   color:grey;
 }
-.NavItem:link:visited {
+.NavItem:visited {
   text-decoration: underline;
 }
 @media all and (max-width:1120px){
@@ -42,7 +43,7 @@
   }
 }
 
-@media all and (max-width:720px){
+@media all and (max-width:786px){
 
   .NavText{
     display:none;
@@ -53,5 +54,6 @@
   }
   .LinkContainer{
     justify-content: center;
+    margin-right: -10px;
   }
 }

@@ -128,10 +128,12 @@ form{
 }
 @media all and (max-width:786px){
   .contactForm{
-    width:80%;
+    width:90%;
   }
   .socialTitle{
     font-size: 2em;
   }
-
+  .formTitle{
+    font-size: 1.5rem;
+  }
 }

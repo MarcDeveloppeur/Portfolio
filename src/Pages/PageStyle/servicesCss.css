@@ -1,0 +1,14 @@
+.serviceContent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+  background-color: rgba(190,190,190);
+  width:75%;
+}
+@media all and (max-width:786px){
+  .serviceContent{
+    width:90%;
+  }
+}

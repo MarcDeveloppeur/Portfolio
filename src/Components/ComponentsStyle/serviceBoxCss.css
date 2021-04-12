@@ -1,0 +1,42 @@
+.ServiceBoxContainer{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:90%;
+  background-color: white;
+  margin:10px 0px;
+  padding: 10px;
+}
+.serviceImage{
+  width:40%;
+}
+.serviceDescriptionBlock{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:60%;
+}
+.serviceTitle{
+  color:black;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.serviceDescript{
+  color:grey;
+  font-size: 1rem;
+  font-family: serif;
+}
+@media all and (max-width:786px){
+  .serviceImage{
+    width:100%;
+  }
+  .serviceDescriptionBlock{
+    width:100%;
+    padding: 5px;
+  }
+}

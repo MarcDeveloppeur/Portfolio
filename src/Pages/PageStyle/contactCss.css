@@ -126,7 +126,7 @@ form{
     transform: scale(1);
   }
 }
-@media all and (max-width:786px){
+@media all and (max-width:920px){
   .contactForm{
     width:90%;
   }
